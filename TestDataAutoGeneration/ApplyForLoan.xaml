@@ -8,7 +8,7 @@
     <x:Property Name="Expected_Message_or_Loan_Rate" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1498.4,2878.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1498.4,3070.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -100,7 +100,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Lorem ipsum dolor&#xA;&#xA;" DisplayName="ApplyForLoan" sap:VirtualizedContainerService.HintSize="545.6,2813.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="The following information has to be provided by the applicant in order to apply for a loan:&#xD;&#xA;Email, Loan Amount Requested, Yearly Income, Loan Term (either 1, 3,5 or 10), and Age.&#xD;&#xA;Acceptance Criteria:&#xD;&#xA;* Applicants below 18 years or above 80 years should be declined with the message &quot;Sorry, your application has been declined&quot;&#xD;&#xA;* Applicants with a yearly income below 1000 should be declined with the message &quot;Sorry, your application has been declined&quot;&#xD;&#xA;* Applicants with a loan amount requested more than 10 times the yearly income shoul be declined with the message &quot;Sorry, your application has been declined&quot;.&#xD;&#xA;* Applicants with  a yearly income equal or below 10 times the yearly income should get a loan rate of 12%.&#xD;&#xA;* Applicants with a yearly income equal or below 5 times the yearly income should get a loan rate of 10%&#xD;&#xA;Pls generate a good mix of valid and invalid test scenarios, specifically focussing on equivalence classes" DisplayName="ApplyForLoan" sap:VirtualizedContainerService.HintSize="545.6,3005.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
